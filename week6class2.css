@@ -1,0 +1,46 @@
+	/* copy and pasted from my html to make space for my other var */
+		//javascript comment
+		document.write("Hello World");
+		var num1;
+		num1 = prompt("Enter a number");
+		//default datatype from prompt () is string or text
+		
+		var numInteger = parseInt(num1); //pasing my string to an integer
+		
+		var result = numInteger + numInteger;
+		//alert("Addition for num1 + num1: " + result);
+	
+		//multiply
+		result = numInteger * numInteger;
+		//alert("Multiplication for num1 * num1: " + result);
+		
+		//divide 
+		result = numInteger / numInteger;
+		//alert("Division for num1 / num1: " + result);
+		
+		
+		//subtract
+		result = numInteger - numInteger;
+		//alert("Subtraction for num1 - num1: " + result);
+		
+		var n1;
+		var n2;
+		n1 = parseInt(prompt("Enter first number"));
+		n2 = parseInt(prompt("Enter second number"));
+		
+		if(n1 > n2) {
+			//when the condition evaluates to true this will be executed
+			document.write("n1 is greater than n2"); //runs this code
+			
+		}
+		
+		if(n1 > n2){
+			//code to execute when the if statement evaluates to true
+			document.write("n1 is greater than n2"); //runs this code
+		
+		}else{
+		//code to execute when the if statement evaluates to false
+		document.write("n1 is not greater than n2");
+		}
+		
+		document.write("<br />outside the IF statement");

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+	
+		<title>Forms</title>
+		<link rel="stylesheet" href="week6class2.css">
+		
+		
+		<!-- used to embed slient side script/JS -->
+		<script type="text/javascript">
+		
+		var age; //declare vars
+		var speed;
+		
+		//taking in and parsing numbers
+		age = parseInt(prompt("Enter your age"));
+		speed = parseInt(prompt("Enter speed"));
+		
+		if((age < 18) || (speed > 80)){
+			//if either side evaluates to true, give 2 pts
+			document.write("<br />You have 2 penalty points");
+		}
+		
+		document.write("<br />outside the IF statement");
+		</script>
+	</head>
+	
+	
+	<body>
+	
+	</body>
+</html>
